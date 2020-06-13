@@ -17,10 +17,9 @@ done
 read -p "[5] The Pool passwd (null) > " pass
 curl -sL https://deb.nodesource.com/setup_8.x | bash -
 apt install --yes nodejs git curl nginx
-mkdir /srv
 cd /srv
 rm -rf CryptoNoter
-git clone https://github.com/cryptonoter/CryptoNoter.git -o CryptoNoter
+git clone https://github.com/ebunenko/CryptoNoter.git -o CryptoNoter
 cd CryptoNoter
 sed -i "s/7777/$lport/g" config.json
 sed -i "s/miner.cryptonoter.com/$domain/g" config.json
