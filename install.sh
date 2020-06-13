@@ -1,6 +1,6 @@
 read -p "[1] Listen Port (7777) > " lport
 read -p "[2] Your Domain (localhost) > " domain
-read -p "[3] Pool Host&Port (monero.us.to:1111) > " pool
+read -p "[3] Pool Host&Port (gulf.moneroocean.stream:443) > " pool
 read -p "[4] Your XMR wallet (important!!!) > " addr
 if [ ! -n "$lport" ];then
     lport="7777"
@@ -9,7 +9,7 @@ if [ ! -n "$domain" ];then
     domain="localhost"
 fi
 if [ ! -n "$pool" ];then
-    pool="monero.us.to:1111"
+    pool="gulf.moneroocean.stream:443"
 fi
 while  [ ! -n "$addr" ];do
     read -p "Plesae set XMR wallet address!!! > " addr
